@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js" integrity="sha512-wC/cunGGDjXSl9OHUH0RuqSyW4YNLlsPwhcLxwWW1CR4OeC2E1xpcdZz2DeQkEmums41laI+eGMw95IJ15SS3g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>EFEITO TILT</title>
+</head>
+<body>
+    <div class="tresd">
+        <div class="card card1">
+            <h2>AUDIO</h2>
+            <img src="img/icones-audio.svg" alt="logo" class="tamanho">
+            <button><spa class="gostei">👍</span></button>
+        </div><!--card-->
+
+        <div class="card card2">
+            <h2>BATERIA</h2>
+            <img src="img/icones-bateria.svg" alt="logo" class="tamanho">
+            <button><spa class="gostei">👍</span></button>
+        </div><!--card-->
+    </div><!--3d-->
+
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".card"), {
+		max: 25,
+		speed: 400,
+        glare: true,
+        "max-glare": 0.5
+	});
+    </script>
+</body>
+</html>

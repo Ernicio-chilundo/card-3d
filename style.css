@@ -1,0 +1,77 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height: 100vh;
+}
+
+.tresd .card h2{
+    color: #fff;
+    transform-style: preserve-3d;
+
+}
+
+.gostei {
+    font-size: 50px;
+}
+
+.tresd .card button{
+    border: none;
+    border-radius: 20px;
+    padding-bottom: 3%;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transition: .5s;
+
+}
+
+.tresd{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform-style: preserve-3d;
+}
+
+.tresd .card{
+    width: 300px;
+    height: 450px;
+    padding: 20px;
+    margin: 40px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aquamarine;
+    flex-direction: column;
+    transform-style: preserve-3d;
+
+}
+
+.tresd .card img.tamanho {
+    max-width: 250px;
+    transform-style: preserve-3d;
+    transition: .5s
+
+}
+
+
+.tresd .card:hover img.tamanho, .tresd .card:hover button{
+    transform: translate(0, 0, 100px);
+}
+
+
+.tresd div.card1 {
+    background-image: linear-gradient(45deg, brown, aqua);
+}
+
+.tresd div.card2 {
+    background-image: linear-gradient(45deg, orange, green);
+}
